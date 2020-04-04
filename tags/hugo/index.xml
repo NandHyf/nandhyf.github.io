@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Nand&#39;s Blog</title>
+    <link>http://nandhyf.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Nand&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Apr 2020 15:56:15 +0800</lastBuildDate>
+    
+	<atom:link href="http://nandhyf.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo StudyFlow</title>
+      <link>http://nandhyf.github.io/post/hugostudyflow/</link>
+      <pubDate>Sat, 04 Apr 2020 15:56:15 +0800</pubDate>
+      
+      <guid>http://nandhyf.github.io/post/hugostudyflow/</guid>
+      <description> By: NandHyf
+version: v0.68.3
+安装 Video guid form Mike Dane, Youtube
+功能性注释  /bin是需要自己创建的! /Site不是必须的😥  网站文件夹  /archetyypes: 在原型中定义关于内容的一些数据, 所有的原型都存放在这里  default.md   /content: 存储网站的所有内容(任何网页等内容都存储在这里) /data: 数据文件夹, 用来存放部署动态网站时的数据; 或者是.json文件 /layouts: 布局文件(例如未每一个页面增加一个头部或脚部的.html文件) /static: 存放了所有的静态元素(.html/.css/.js/&amp;hellip;) /themes: 存放了页面主题 config.toml: 配置文件夹  </description>
+    </item>
+    
+  </channel>
+</rss>
