@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nand&#39;s Page</title>
-    <link>http://nandhyf.github.io/</link>
-    <description>Recent content on Nand&#39;s Page</description>
+    <title>Page of Nand</title>
+    <link>https://nandhyf.github.io/</link>
+    <description>Recent content on Page of Nand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2020 16:35:44 +0800</lastBuildDate>
     
-	<atom:link href="http://nandhyf.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nandhyf.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About that &#34;Wall&#34;</title>
-      <link>http://nandhyf.github.io/post/thatwall/</link>
+      <link>https://nandhyf.github.io/post/thatwall/</link>
       <pubDate>Sat, 04 Apr 2020 16:35:44 +0800</pubDate>
       
-      <guid>http://nandhyf.github.io/post/thatwall/</guid>
+      <guid>https://nandhyf.github.io/post/thatwall/</guid>
       <description>真实的防火墙 网络审查在各个国家都普遍存在着，它并不仅存在于中国。在全球的局势对中国都不利的当下，当局会过滤掉影响、危害到中国长远发展的信息，此时国家安全的意义更加重大。
 互联网上存在着大量不现实的、不客观的，甚至自相矛盾的抹黑当局政府言论，它们背后一般有西方政府或非政府组织资金支持。这些媒体包括但不限于一些港媒、境外网站。
 我们希望能在遇到此类言论和见解时，不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西，而是要事实求是地思考，要摆脱情绪绑架的怪诞思维去理解。
@@ -27,10 +27,10 @@
     
     <item>
       <title>W3c StudyFlow</title>
-      <link>http://nandhyf.github.io/post/w3cstudyflow/</link>
+      <link>https://nandhyf.github.io/post/w3cstudyflow/</link>
       <pubDate>Sat, 04 Apr 2020 16:31:25 +0800</pubDate>
       
-      <guid>http://nandhyf.github.io/post/w3cstudyflow/</guid>
+      <guid>https://nandhyf.github.io/post/w3cstudyflow/</guid>
       <description>HTML
 CSS
 JS
@@ -53,10 +53,10 @@ cursor: move; 列表&amp;quot;切片选择&amp;rdquo;
     
     <item>
       <title>Hugo StudyFlow</title>
-      <link>http://nandhyf.github.io/post/hugostudyflow/</link>
+      <link>https://nandhyf.github.io/post/hugostudyflow/</link>
       <pubDate>Sat, 04 Apr 2020 15:56:15 +0800</pubDate>
       
-      <guid>http://nandhyf.github.io/post/hugostudyflow/</guid>
+      <guid>https://nandhyf.github.io/post/hugostudyflow/</guid>
       <description> By: NandHyf
 version: v0.68.3
 安装 Video guid form Mike Dane, Youtube
@@ -65,10 +65,10 @@ version: v0.68.3
     
     <item>
       <title>MarkdownTips</title>
-      <link>http://nandhyf.github.io/post/markdowntips/</link>
+      <link>https://nandhyf.github.io/post/markdowntips/</link>
       <pubDate>Sat, 04 Apr 2020 14:58:10 +0800</pubDate>
       
-      <guid>http://nandhyf.github.io/post/markdowntips/</guid>
+      <guid>https://nandhyf.github.io/post/markdowntips/</guid>
       <description>LTS Project✅ 🚧持续更新中 语法支持:
 Typora✅
 VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;)
