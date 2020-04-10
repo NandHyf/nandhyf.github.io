@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nandhyf.github.io/post/thatwall/</loc>
+    <loc>https://nandhyf.github.io/post/aboutthatwall/</loc>
     <lastmod>2020-04-04T16:35:44+08:00</lastmod>
   </url>
   
@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://nandhyf.github.io/categories/</loc>
+    <lastmod>2020-04-04T16:31:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nandhyf.github.io/tags/css/</loc>
     <lastmod>2020-04-04T16:31:25+08:00</lastmod>
   </url>
@@ -43,12 +48,17 @@
   </url>
   
   <url>
-    <loc>https://nandhyf.github.io/tags/studyflow/</loc>
+    <loc>https://nandhyf.github.io/tags/tips/</loc>
     <lastmod>2020-04-04T16:31:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nandhyf.github.io/post/w3cstudyflow/</loc>
+    <loc>https://nandhyf.github.io/categories/tips/</loc>
+    <lastmod>2020-04-04T16:31:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nandhyf.github.io/post/web%E4%B8%89%E5%A4%A7%E4%BB%B6%E5%84%BFtips/</loc>
     <lastmod>2020-04-04T16:31:25+08:00</lastmod>
   </url>
   
@@ -58,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://nandhyf.github.io/post/hugostudyflow/</loc>
+    <loc>https://nandhyf.github.io/post/hugo%E5%AD%A6%E4%B9%A0%E6%B5%81/</loc>
     <lastmod>2020-04-04T15:56:15+08:00</lastmod>
   </url>
   
@@ -75,15 +85,6 @@
   <url>
     <loc>https://nandhyf.github.io/post/markdowntips/</loc>
     <lastmod>2020-04-04T14:58:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nandhyf.github.io/tags/tips/</loc>
-    <lastmod>2020-04-04T14:58:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nandhyf.github.io/categories/</loc>
   </url>
   
 </urlset>
