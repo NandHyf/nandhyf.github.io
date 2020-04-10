@@ -38,17 +38,7 @@ JS
 // ul#newsbox&amp;gt;li*5{我是第$个Li}  CSS  能用CSS搞定的绝对不用JS
   行内样式优先级最高
  清除浏览器默认间距和填充的8px，但不是最好的方法：
-*{ margin = 0; padding = 0; } 样式“标配”：
-box-sizing: border-box; 父元素
-position: relative; 子元素
-posintion: absolute; 默认隐藏
-display: none; Z-index默认0
-💡如果是父子关系的元素需要调节子元素，调整父元素是没用的（继承）
-将鼠标指针形状改为手型
-cursor: pointer; 改为移动型（四个方向键）
-cursor: move; 列表&amp;quot;切片选择&amp;rdquo;
-#盒子名称 列表名称:正向选取(第x个) #newsbox li:nth-child(x) #盒子名称 列表名称:反向选取(第x个) #newsbox li:nth-last-child(x) #盒子名称 列表名称:反向选取(所有的偶数行) #newsbox li:nth-last-child(even) #盒子名称 列表名称:反向选取(所有的奇数行) #newsbox li:nth-last-child(odd) 响应鼠标悬浮
-#newsbox li:hover{ } //例:列表悬浮变色: #newsbox li:hover{ background: lightgreen; } 🚧tabBox&amp;gt;div.</description>
+*{ margin = 0; padding = 0; } 样式“标配”：</description>
     </item>
     
     <item>
@@ -60,7 +50,7 @@ cursor: move; 列表&amp;quot;切片选择&amp;rdquo;
       <description>By: NandHyf
 version: v0.68.3
 安装 Video guid form Mike Dane, Youtube
-功能性注释  /bin是需要自己创建的! /Site不是必须的😥 是可以直接托管/Public文件夹的,没有必要创建&amp;quot;平行文件夹&amp;rdquo;  网站文件夹  /archetyypes: 在原型中定义关于内容的一些数据, 所有的原型都存放在这里  default.md   /content: 存储网站的所有内容(任何网页等内容都存储在这里) /data: 数据文件夹, 用来存放部署动态网站时的数据; 或者是.json文件 /layouts: 布局文件(例如未每一个页面增加一个头部或脚部的.html文件) /static: 存放了所有的静态元素(.html/.css/.js/&amp;hellip;) /themes: 存放了页面主题 config.toml: 配置文件夹  </description>
+功能性注释  /bin是需要自己创建的! /Site不是必须的😥 是可以直接托管/Public文件夹的,没有必要创建&amp;quot;平行文件夹&amp;rdquo;  网站文件夹  /archetyypes: 在原型中定义关于内容的一些数据, 所有的原型都存放在这里  default.</description>
     </item>
     
     <item>
@@ -73,8 +63,7 @@ version: v0.68.3
 Typora✅
 VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;)
 同目录下的.html版本由Typora导出，供有需要的朋友快速查阅使用💗
- 通用语法  分级标题 有序列表 无序列表 加粗  GitHub的支持问题   斜体 删除线 引用 代码块 分割线 取消转义 嵌套使用 链接 插入图片  GitHub的支持问题   锚点  锚点与&amp;lt;a&amp;gt;标签   勾选框 制表  对齐    特殊语法 🚧受限于Markdown并非标准化的特性，以下语法的支持不具有普遍性，请在使用前确认目标编辑器支持该特性
- 高亮 上角标 下角标 下划线 Markdown与HTML  &amp;lt;a&amp;gt; &amp;lt;b&amp;gt; &amp;lt;i&amp;gt; &amp;lt;u&amp;gt; &amp;lt;hr&amp;gt;    快捷键 💡Windows下通过Ctrl +实现的功能在Mac OS下大多可以通过Command + 实现</description>
+ 通用语法  分级标题 有序列表 无序列表 加粗  GitHub的支持问题   斜体 删除线 引用 代码块 分割线 取消转义 嵌套使用 链接 插入图片  GitHub的支持问题   锚点  锚点与&amp;lt;a&amp;gt;标签   勾选框 制表  对齐    特殊语法 🚧受限于Markdown并非标准化的特性，以下语法的支持不具有普遍性，请在使用前确认目标编辑器支持该特性</description>
     </item>
     
   </channel>
