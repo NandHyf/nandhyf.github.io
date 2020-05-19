@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      
+  使用Typora绘制图(表) &ndash; Page of NAND He
+
+    </title>
+    
+    <link href="/Icons/A128.ico" type="image/x-icon" rel="shortcut icon">
+    
+    <meta name="description" property="og:description" content="使用Typora 绘制图(表) @author: 加贝
+在学习语法之前, 不妨花一点时间阅读以下官方支持文档, 再决定学习本主题的范围和深度
+(本篇文章中出现的译文均为笔者翻译或注释, 内容仅供参考)
+ Draw Diagrams With Markdown August 15, 2016 by typora.io
+Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel.|">
+    
+
+    <meta name="apple-mobile-web-app-title" content="Page of NAND He">
+    
+    
+    
+    
+
+
+    <link rel="stylesheet" href="/assets/syntax.css">
+    <link rel="stylesheet" href="/assets/primer-build.css">
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+
+
+  <body class="bg-gray">
+    <div id="holy" class="container-lg bg-white h-100">
+
+      <div id="header" class="px-1 bg-white">
+        <nav class="UnderlineNav UnderlineNav--right px-2">
+  <a class="UnderlineNav-actions muted-link h2" href="https://nandhyf.github.io">
+    Page of NAND He
+  </a>
+  
+  
+</nav>
+
+      </div>
+
+      <div role="main" id="main" class="holy-main markdown-body px-4 bg-white">
+        
+
+<div class="Subhead">
+  <div class="Subhead-heading">
+    <div class="h1 mt-3 mb-1">使用Typora绘制图(表)</div>
+  </div>
+  <div class="Subhead-description">
+    
+
+
+<a href='/categories/tips' class="muted-link">
+  <span class="Label Label--gray-darker">Tips</span>
+</a>
+
+
+
+<a href='/tags/tips' class="muted-link">
+  <span class="Label Label--gray">Tips</span>
+</a>
+
+<a href='/tags/dict' class="muted-link">
+  <span class="Label Label--gray">Dict</span>
+</a>
+
+
+
+    
+    <div class="float-md-right">
+      <span title="Lastmod: 2020-05-17. Published at: 2020-05-17.">
+        
+          Published: 2020-05-17
+        
+      </span>
+    </div>
+    
+  </div>
+</div>
+<article>
+  
+  <section class="pb-6 mb-3 border-bottom">
+    <h1 id="使用typora-绘制图表">使用Typora 绘制图(表)</h1>
+<p>@author: 加贝</p>
+<p><strong>在学习语法之前, 不妨花一点时间阅读以下官方支持文档, 再决定学习本主题的范围和深度</strong></p>
+<p>(本篇文章中出现的译文均为笔者翻译或注释, <strong>内容仅供参考</strong>)</p>
+<blockquote>
+<h1 id="draw-diagrams-with-markdown">Draw Diagrams With Markdown</h1>
+<p>August 15, 2016 by typora.io</p>
+<p>Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel.</p>
+<p>When exporting as <strong>HTML</strong>, <strong>PDF</strong>, <strong>epub</strong>, <strong>docx</strong>, those rendered diagrams <strong>will also be included</strong>, <del>but diagrams features are not supported when exporting markdown into other file formats in current version*</del>. Besides, you should also notice that **diagrams is not supported by standard Markdown, CommonMark or GFM. **Therefore, we still <strong>recommend you to insert an image</strong> of these diagrams instead of write them in Markdown directly.</p>
+<hr>
+<h1 id="使用typora绘制图表">使用Typora绘制图(表)</h1>
+<p>August 15, 2016 by typora.io</p>
+<p>Typora 可以支持一些Markdown的图表扩展(语法), 如果你在偏好设置中选择开启(支持性)</p>
+<p><img src="./Pix/Pic/Enable.png" alt="开启选项"></p>
+<p>当导出为**.html**, **.PDF**, .**epub**, .**docx**时这些渲染的图(表)依然会被包括进来~~但是图(表)特性在当前(四年前的远古版本)版本中由Markdown导出到其他格式**时**不被支持~~. 另外🔔, 你也应该注意到图(表)并不被**标准Markdown, CommonMark 或 GFM 所支持;**</p>
+<p>因此💡, 我们<strong>依然建议你选择插入图片</strong>而不是使用直接使用Markdown书写</p>
+</blockquote>
+<hr>
+<h2 id="那么接下来-就是正文内容">那么接下来, 就是正文内容!🎉</h2>
+<p><strong>正文目录:</strong></p>
+<ul>
+<li><a href="#%E5%BA%8F%E5%88%97%E5%9B%BE">序列图</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a></li>
+<li><strong>Mermaid</strong>(一个Markdown语法扩展, 但是在Typora可查的文档中仅支持以下的子列表中列出的特性)
+<ul>
+<li><a href="#Mermaid%E5%BA%8F%E5%88%97%E5%9B%BE">Mermaid序列图</a></li>
+<li><a href="#Mermaid%E6%B5%81%E7%A8%8B%E5%9B%BE">Mermaid流程图</a></li>
+<li><a href="#Mermaid%E7%94%98%E7%89%B9%E5%9B%BE">Mermaid甘特图</a></li>
+<li><a href="#Mermaid%E7%B1%BB%E5%9B%BE">Mermaid类图</a></li>
+<li><a href="#Mermaid%E7%8A%B6%E6%80%81%E5%9B%BE">Mermaid状态图</a></li>
+<li><a href="#Mermaid%E9%A5%BC%E5%9B%BE">Mermaid饼图</a></li>
+</ul>
+</li>
+<li><a href="#%E7%89%B9%E6%80%A7%E6%80%BB%E7%BB%93">特性总结</a>
+<ul>
+<li>个人小结</li>
+</ul>
+</li>
+</ul>
+<p>🔔: Typora绘制的图(表)中对于对象的数量的支持<strong>或许是有限的</strong>, 因此建议在规划事件或逻辑顺序前<strong>先对所需对象数量的支持性进行检查</strong></p>
+<hr>
+<h2 id="序列图">序列图</h2>
+<blockquote>
+<p>This feature uses <a href="https://bramp.github.io/js-sequence-diagrams/"><strong>js-sequence</strong></a>, which turns the following code block into a rendered diagram:</p>
+<hr>
+<p>这个特性是通过 <a href="https://bramp.github.io/js-sequence-diagrams/"><strong>js-sequence</strong></a>所实现的, 可以将以下代码转换为渲染图</p>
+</blockquote>
+<pre><code>​```sequence
+Alice-&gt;Bob: Hello Bob, how are you?
+Note left of Alice: Alice thinks
+Note right of Alice: Alice thinks
+Note left of Bob: Bob thinks
+Note right of Bob: Bob thinks
+Bob--&gt;Alice: I am good thanks!
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><strong>结果如下:</strong></p>
+<p><img src="./Pix/Pic/%E5%BA%8F%E5%88%97%E5%9B%BE.png" alt="序列图"></p>
+<p>💡对象的数量并不局限于两个, 比如也可以写成👇这样; 但<strong>或许是有上限的</strong>, 因此还是建议在规划事件或逻辑顺序前<strong>先对所需对象数量的支持性进行检查</strong></p>
+<pre><code>​```sequence
+a--&gt;b: a2b
+a--&gt;c: a2c
+a--&gt;d: a2d
+a--&gt;e: a2e
+a--&gt;f: a2f
+a--&gt;g: a2g
+a--&gt;h: a2h
+a--&gt;i: a2i
+a--&gt;j: a2j
+a--&gt;k: a2k
+​```
+</code></pre><p><img src="./Pix/Pic/%E5%8D%81%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BA%8F%E5%88%97%E5%9B%BE.png" alt="十个对象的序列图"></p>
+<h3 id="特性表">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-&gt; :</td>
+<td>事件线(直线): 事件</td>
+<td>对象a-&gt;对象b: 事件1</td>
+</tr>
+<tr>
+<td>&ndash;&gt; :</td>
+<td>事件线(直线): 事件</td>
+<td>对象a&ndash;&gt;对象b: 事件1</td>
+</tr>
+<tr>
+<td>note left/right of :</td>
+<td>备注</td>
+<td>note left of 对象a:  备注1<!-- raw HTML omitted -->note right of 对象b: 备注2</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="流程图">流程图</h2>
+<blockquote>
+<p>This feature uses <a href="http://flowchart.js.org/"><strong>flowchart.js</strong></a>, which turns the following code block into a rendered diagram:</p>
+<hr>
+<p>这个特性是通过 <a href="http://flowchart.js.org/"><strong>flowchart.js</strong></a>所实现的, 可以将以下代码转换为渲染图</p>
+</blockquote>
+<pre><code>​```flow
+st=&gt;start: Start
+op=&gt;operation: Your Operation
+cond=&gt;condition: Yes or No?
+e=&gt;end
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><strong>结果如下:</strong></p>
+<p><img src="./Pix/Pic/%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="流程图"></p>
+<p>💡同样的, 对象的数量并不局限于两个, 但<strong>或许是有上限的</strong>, 因此还是建议在规划事件或逻辑顺序前<strong>先对所需对象数量的支持性进行检查</strong></p>
+<h3 id="特性表-1">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>st=&gt;start:</td>
+<td>开始(声明): 显示文本</td>
+<td>st=&gt;start: 开始</td>
+</tr>
+<tr>
+<td>op=&gt;operation:</td>
+<td>选项(声明): 显示文本</td>
+<td>op=&gt;operation: 行为</td>
+</tr>
+<tr>
+<td>cond=&gt;condition:</td>
+<td>条件(声明): 显示文本</td>
+<td>cond=&gt;condition: 是/否?</td>
+</tr>
+<tr>
+<td>e=&gt;end</td>
+<td>结束(声明)</td>
+<td>e=&gt;end</td>
+</tr>
+<tr>
+<td>-&gt;</td>
+<td>事件线(实线)</td>
+<td>st-&gt;op-&gt;cond<!-- raw HTML omitted -->cond(<strong>yes</strong>)-&gt;e<!-- raw HTML omitted -->cond(<strong>no</strong>)-&gt;op<!-- raw HTML omitted -->🔔cond()的参数似乎必须是&quot;yes&quot;和&quot;no&rdquo;</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mermaid">Mermaid</h2>
+<blockquote>
+<p>Typora also has integration with <a href="https://mermaid-js.github.io/mermaid/#/"><strong>mermaid</strong></a>, which supports sequence diagrams, flowcharts, Gantt charts, class and state diagrams, and pie charts.</p>
+<hr>
+<p>Typora还集成了<a href="https://mermaid-js.github.io/mermaid/#/"><strong>mermaid</strong></a>, 支持其中的序列图, 流程图, 甘特图, 类图, 状态图和饼图</p>
+</blockquote>
+<hr>
+<h2 id="mermaid序列图">Mermaid序列图</h2>
+<blockquote>
+<p>For more details see <a href="https://mermaid-js.github.io/mermaid/#/sequenceDiagram"><strong>these instructions</strong></a>.</p>
+<hr>
+<p>通过👉<a href="https://mermaid-js.github.io/mermaid/#/sequenceDiagram"><strong>Mermaid序列图文档</strong></a>查看更多细节</p>
+</blockquote>
+<pre><code>​```mermaid
+%% Example of sequence diagram
+  sequenceDiagram
+    Alice-&gt;&gt;Bob: Hello Bob, how are you?
+    alt is sick
+    Bob-&gt;&gt;Alice: Not so good :(
+    else is well
+    Bob-&gt;&gt;Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+    Bob-&gt;&gt;Alice: Thanks for asking
+    end
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><img src="./Pix/Pic/Mermaid%E5%BA%8F%E5%88%97%E5%9B%BE.png" alt="Mermaid序列图"></p>
+<h3 id="特性表-2">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sequenceDiagram</td>
+<td>声明</td>
+<td>段首声明用</td>
+</tr>
+<tr>
+<td>-&raquo; :</td>
+<td>事件线(实线)</td>
+<td>对象a-&raquo;对象b:事件文本</td>
+</tr>
+<tr>
+<td>alt</td>
+<td>情况替换文本</td>
+<td>alt 条件/情况</td>
+</tr>
+<tr>
+<td>else</td>
+<td>(其他)情况替换文本</td>
+<td>else 条件/情况</td>
+</tr>
+<tr>
+<td>opt</td>
+<td>选择性文本</td>
+<td>opt 条件/情况</td>
+</tr>
+<tr>
+<td>end</td>
+<td>结束(声明)</td>
+<td>段尾结束</td>
+</tr>
+<tr>
+<td>%%</td>
+<td>注释</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mermaid流程图">Mermaid流程图</h2>
+<blockquote>
+<p>For more details see <a href="https://mermaid-js.github.io/mermaid/#/flowchart"><strong>these instructions</strong></a>.</p>
+<hr>
+<p>通过👉<a href="https://mermaid-js.github.io/mermaid/#/flowchart"><strong>Mermaid流程图文档</strong></a>查看更多细节</p>
+</blockquote>
+<h3 id="语法">语法</h3>
+<p><strong>横向流程图</strong></p>
+<pre><code>​```mermaid
+graph LR
+id1[alt] --&gt;id2(alt)
+id2 --&gt; id3{alt}
+id3 --&gt;|情况1| id4[结果1]
+id3 --&gt;|情况2| id5[结果2]
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><img src="./Pix/Pic/%E6%A8%AA%E5%90%91%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="横向流程图"></p>
+<p><strong>纵向流程图:</strong></p>
+<pre><code>​```mermaid
+graph TD
+id1[alt] --&gt;id2(alt)
+id2 --&gt; id3{alt}
+id3 --&gt;|情况1| id4[结果1]
+id3 --&gt;|情况2| id5[结果2]
+id3 --&gt;|情况3| id6[结果3]
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><img src="./Pix/Pic/%E7%BA%B5%E5%90%91%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="纵向流程图"></p>
+<h3 id="特性表-3">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>graph LR/TD</td>
+<td>声明</td>
+<td>横向制图用&quot;LR&quot;<!-- raw HTML omitted -->纵向制图用&quot;TD&rdquo;</td>
+</tr>
+<tr>
+<td>id[alt]</td>
+<td>直角矩形</td>
+<td>id[alt]</td>
+</tr>
+<tr>
+<td>id(alt)</td>
+<td>圆角矩形</td>
+<td>id(alt)</td>
+</tr>
+<tr>
+<td>id{alt}</td>
+<td>菱形(结点)</td>
+<td>id{alt}</td>
+</tr>
+<tr>
+<td>&ndash;&gt;</td>
+<td>事件线(实线)</td>
+<td>对象a&ndash;&gt;对象b</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mermaid甘特图">Mermaid甘特图</h2>
+<blockquote>
+<p>For more details see <a href="https://mermaid-js.github.io/mermaid/#gantt"><strong>these instructions</strong></a>.</p>
+<hr>
+<p>通过👉<a href="https://mermaid-js.github.io/mermaid/#gantt"><strong>Mermaid甘特图文档</strong></a>查看更多细节</p>
+</blockquote>
+<pre><code>​```mermaid
+%% Example with selection of syntaxes
+        gantt
+        dateFormat  YYYY-MM-DD
+        title Adding GANTT diagram functionality to mermaid
+
+        section A section
+        Completed task            :done,    des1, 2014-01-06,2014-01-08
+        Active task               :active,  des2, 2014-01-09, 3d
+        Future task               :         des3, after des2, 5d
+        Future task2               :         des4, after des3, 5d
+
+        section Critical tasks
+        Completed task in the critical line :crit, done, 2014-01-06,24h
+        Implement parser and jison          :crit, done, after des1, 2d
+        Create tests for parser             :crit, active, 3d
+        Future task in critical line        :crit, 5d
+        Create tests for renderer           :2d
+        Add to mermaid                      :1d
+
+        section Documentation
+        Describe gantt syntax               :active, a1, after des1, 3d
+        Add gantt diagram to demo page      :after a1  , 20h
+        Add another diagram to demo page    :doc1, after a1  , 48h
+
+        section Last section
+        Describe gantt syntax               :after doc1, 3d
+        Add gantt diagram to demo page      : 20h
+        Add another diagram to demo page    : 48h
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><img src="./Pix/Pic/%E7%94%98%E7%89%B9%E5%9B%BE.png" alt="甘特图"></p>
+<h3 id="特性表-4">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gantt</td>
+<td>类型声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>dateFormat</td>
+<td>时间格式</td>
+<td>dateformat: YYYY-MM-DD<!-- raw HTML omitted -->datefomat: MM-DD-YYYY<!-- raw HTML omitted -->etc(更多的格式查看👉<a href="https://mermaid-js.github.io/mermaid/#gantt"><strong>Mermaid甘特图文档</strong></a>)</td>
+</tr>
+<tr>
+<td>title</td>
+<td>甘特图标题</td>
+<td>title xx项目管理表</td>
+</tr>
+<tr>
+<td>section</td>
+<td>项目名称(分区)</td>
+<td>section 项目1</td>
+</tr>
+<tr>
+<td>:done</td>
+<td>完成(状态)</td>
+<td>事件1    :done, &hellip;</td>
+</tr>
+<tr>
+<td>:active</td>
+<td>正在进行(状态)</td>
+<td>事件1    :active, &hellip;</td>
+</tr>
+<tr>
+<td>:crit</td>
+<td><strong>c</strong>ritical, 关键任务</td>
+<td>事件1    :crit, &hellip;</td>
+</tr>
+<tr>
+<td>des&lt;x&gt;</td>
+<td><strong>d</strong>escription, 任务描述(指针或者选择器)</td>
+<td>des&lt;x&gt;, &lt;对项目事件的时间描述&gt;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="关于des的补充">关于&quot;des&quot;的补充</h3>
+<p><strong>des</strong>cription, 个人认为应该理解为一个对事件时间节点的快速标记语法;</p>
+<p>首先这种标记的基础和原理是甘特图本身就是&rdquo;<strong>在时间轴上基于事件地描述整个项目流程</strong>&quot;, 因此每个项目的事件还可以用&rdquo;<strong>某事件后多久</strong>&ldquo;来进行定位(和描述), 这样一来, 许多事件可以很方便的&quot;挂&quot;在几个<strong>时间标记</strong>之后, 举个例子:</p>
+<p><strong>首先回顾一下这张图:</strong></p>
+<p><img src="./Pix/Pic/%E7%94%98%E7%89%B9%E5%9B%BE.png" alt="甘特图"></p>
+<p>对于A section的定义, 其实就是定义了des1 - des4 四个重要时间点</p>
+<pre><code>section A section
+Completed task	:done, des1, 2014-01-06,2014-01-08
+Active task		:active, des2, 2014-01-09, 3d
+Future task		:des3, after des2, 5d
+Future task2	:des4, after des3, 5d
+</code></pre><p>用画笔辅助理解起来就是👇这样的</p>
+<p><img src="./Pix/Pic/%E7%94%98%E7%89%B9%E5%9B%BEdes.png" alt="甘特图des"></p>
+<p>这下就可以很清晰的理解:</p>
+<blockquote>
+<p>&ldquo;每个项目的事件还可以用<strong>某事件后多久</strong>来进行定位(和描述)&rdquo;</p>
+</blockquote>
+<p>了吧😜; 同理, 再回看其他分区的代码就可以发现其中很多的事件其实是使使用了A区几个事件时间的一种相对描述方法, 有点类似与使用变量存储一个属性来调控整体的方案, 至于利弊就看个人需求取舍啦😉</p>
+<hr>
+<h2 id="mermaid类图">Mermaid类图</h2>
+<blockquote>
+<p>For more details see <a href="https://mermaid-js.github.io/mermaid/#/classDiagram"><strong>these instructions</strong></a>.</p>
+<hr>
+<p>通过👉<a href="https://mermaid-js.github.io/mermaid/#/classDiagram"><strong>Mermaid类图文档</strong></a>查看更多细节</p>
+</blockquote>
+<pre><code>​```mermaid
+classDiagram
+      Animal &lt;|-- Duck
+      Animal &lt;|-- Fish
+      Animal &lt;|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><img src="./Pix/Pic/%E7%B1%BB%E5%9B%BE.png" alt="类图"></p>
+<h3 id="特性表-5">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>classDiagram</td>
+<td>声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>&lt;|&ndash;</td>
+<td>带箭头的连线(实线)</td>
+<td>类a &lt;|&ndash; 类b</td>
+</tr>
+<tr>
+<td>主类名 :</td>
+<td>定义主类里面的内容</td>
+<td>类a : 内容1<!-- raw HTML omitted -->类a : 内容2<!-- raw HTML omitted -->类a : 内容3<!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>class 类名称{ }</td>
+<td>定义子类里面的内容</td>
+<td>class 类b{<!-- raw HTML omitted -->内容1<!-- raw HTML omitted -->内容2<!-- raw HTML omitted -->内容3<!-- raw HTML omitted -->}</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mermaid状态图">Mermaid状态图</h2>
+<blockquote>
+<p>For more details see <a href="https://mermaidjs.github.io/#/stateDiagram"><strong>these instructions</strong></a>.</p>
+<hr>
+<p>通过👉<a href="https://mermaidjs.github.io/#/stateDiagram"><strong>Mermaid状态图文档</strong></a>查看更多细节</p>
+</blockquote>
+<pre><code>​```mermaid
+stateDiagram
+    [*] --&gt; Still
+    Still --&gt; [*]
+
+    Still --&gt; Moving
+    Moving --&gt; Still
+    Moving --&gt; Crash
+    Crash --&gt; [*]
+​```
+</code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<p><img src="./Pix/Pic/%E7%8A%B6%E6%80%81%E5%9B%BE.png" alt="状态图"></p>
+<h3 id="特性表-6">特性表</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stateDiagram</td>
+<td>声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>[*]</td>
+<td>状态点</td>
+<td>[*]&ndash;&gt;对象a</td>
+</tr>
+<tr>
+<td>&ndash;&gt;</td>
+<td>连接线(实线)</td>
+<td>对象a&ndash;&gt;对象b<!-- raw HTML omitted -->(对象可以是状态点)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mermaid饼图">Mermaid饼图</h2>
+<blockquote>
+<p>这里官方文档并没有给出更多, 但是Mermaid官方对于饼图的支持还是有的👉<a href="https://mermaid-js.github.io/mermaid/#/pie"><strong>Mermaid饼图文档</strong></a></p>
+</blockquote>
+<pre><code>​```mermaid
+pie
+    title Pie Chart
+    &quot;Dogs&quot; : 386
+    &quot;Cats&quot; : 85
+    &quot;Rats&quot; : 150 
+​```
+</code></pre><p><img src="./Pix/Pic/%E9%A5%BC%E5%9B%BE.png" alt="饼图"></p>
+<p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pie</td>
+<td>声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>title</td>
+<td>标题</td>
+<td>title 标题x</td>
+</tr>
+<tr>
+<td>&quot; &quot; :</td>
+<td>描述</td>
+<td>&ldquo;部分a&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->&quot;部分b&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->&quot;部分c&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->&quot;部分d&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->💡只需填入数量, 百分比是Mermaid自动求解的</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="特性总结">特性总结</h2>
+<h3 id="序列图-1">序列图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-&gt; :</td>
+<td>事件线(实线)</td>
+<td>对象a -&gt; 对象b :</td>
+</tr>
+<tr>
+<td>&ndash;&gt; :</td>
+<td>事件线(虚线)</td>
+<td>对象a &ndash;&gt; 对象b :</td>
+</tr>
+<tr>
+<td>note left/right of :</td>
+<td>备注</td>
+<td>note left of 对象a:  <!-- raw HTML omitted -->note right of 对象b:</td>
+</tr>
+</tbody>
+</table>
+<h3 id="流程图-1">流程图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>st=&gt;start:</td>
+<td>开始</td>
+<td>st=&gt;start: 开始</td>
+</tr>
+<tr>
+<td>op=&gt;operation:</td>
+<td>选项</td>
+<td>op=&gt;operation: 行为</td>
+</tr>
+<tr>
+<td>cond=&gt;condition:</td>
+<td>条件</td>
+<td>cond=&gt;condition: 是/否?</td>
+</tr>
+<tr>
+<td>e=&gt;end</td>
+<td>结束</td>
+<td></td>
+</tr>
+<tr>
+<td>-&gt;</td>
+<td>事件线(直线)</td>
+<td>st-&gt;op-&gt;cond<!-- raw HTML omitted -->cond(<strong>yes</strong>)-&gt;e<!-- raw HTML omitted -->cond(<strong>no</strong>)-&gt;op<!-- raw HTML omitted -->🔔cond()的参数似乎必须是&quot;yes&quot;和&quot;no&rdquo;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mermaid序列图-1">Mermaid序列图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sequenceDiagram</td>
+<td>声明</td>
+<td>段首声明用</td>
+</tr>
+<tr>
+<td>-&raquo; :</td>
+<td>事件线(实线)</td>
+<td>对象a&ndash;&gt;对象b:事件文本</td>
+</tr>
+<tr>
+<td>alt</td>
+<td>情况替换文本</td>
+<td>alt 条件/情况</td>
+</tr>
+<tr>
+<td>else</td>
+<td>(其他)情况替换文本</td>
+<td>else 条件/情况</td>
+</tr>
+<tr>
+<td>opt</td>
+<td>选择性文本</td>
+<td>opt 条件/情况</td>
+</tr>
+<tr>
+<td>end</td>
+<td>结束(声明)</td>
+<td>段尾结束</td>
+</tr>
+<tr>
+<td>%%</td>
+<td>注释</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="mermaid流程图-1">Mermaid流程图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>graph LR/TD</td>
+<td>声明</td>
+<td>横向制图用&quot;LR&quot;<!-- raw HTML omitted -->纵向制图用&quot;TD&rdquo;</td>
+</tr>
+<tr>
+<td>id[alt]</td>
+<td>直角矩形</td>
+<td>id[alt]</td>
+</tr>
+<tr>
+<td>id(alt)</td>
+<td>圆角矩形</td>
+<td>id(alt)</td>
+</tr>
+<tr>
+<td>id{alt}</td>
+<td>菱形(结点)</td>
+<td>id{alt}</td>
+</tr>
+<tr>
+<td>&ndash;&gt;</td>
+<td>事件线(实线)</td>
+<td>对象a&ndash;&gt;对象b</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mermaid甘特图-1">Mermaid甘特图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gantt</td>
+<td>类型声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>dateFormat</td>
+<td>时间格式</td>
+<td>dateformat: YYYY-MM-DD<!-- raw HTML omitted -->datefomat: MM-DD-YYYY<!-- raw HTML omitted -->etc(更多的格式查看👉<a href="https://mermaid-js.github.io/mermaid/#gantt"><strong>Mermaid甘特图文档</strong></a>)</td>
+</tr>
+<tr>
+<td>title</td>
+<td>甘特图标题</td>
+<td>title xx项目管理表</td>
+</tr>
+<tr>
+<td>section</td>
+<td>项目名称(分区)</td>
+<td>section 项目1</td>
+</tr>
+<tr>
+<td>:done</td>
+<td>完成(状态)</td>
+<td>事件1    :done, &hellip;</td>
+</tr>
+<tr>
+<td>:active</td>
+<td>正在进行(状态)</td>
+<td>事件1    :active, &hellip;</td>
+</tr>
+<tr>
+<td>:crit</td>
+<td><strong>c</strong>ritical, 关键任务</td>
+<td>事件1    :crit, &hellip;</td>
+</tr>
+<tr>
+<td>des&lt;x&gt;</td>
+<td><strong>d</strong>escription, 任务描述(指针或者选择器)</td>
+<td>des&lt;x&gt;, &lt;对项目事件的时间描述&gt;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mermaid类图-1">Mermaid类图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>classDiagram</td>
+<td>声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>&lt;|&ndash;</td>
+<td>带箭头的连线(实线)</td>
+<td>类a &lt;|&ndash; 类b</td>
+</tr>
+<tr>
+<td>主类名 :</td>
+<td>定义主类里面的内容</td>
+<td>类a : 内容1<!-- raw HTML omitted -->类a : 内容2<!-- raw HTML omitted -->类a : 内容3<!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>class 类名称{ }</td>
+<td>定义子类里面的内容</td>
+<td>class 类b{<!-- raw HTML omitted -->内容1<!-- raw HTML omitted -->内容2<!-- raw HTML omitted -->内容3<!-- raw HTML omitted -->}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mermaid状态图-1">Mermaid状态图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stateDiagram</td>
+<td>声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>[*]</td>
+<td>状态点</td>
+<td>[*]&ndash;&gt;对象a</td>
+</tr>
+<tr>
+<td>&ndash;&gt;</td>
+<td>连接线(实线)</td>
+<td>对象a&ndash;&gt;对象b<!-- raw HTML omitted -->(对象可以是状态点)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mermaid饼图-1">Mermaid饼图</h3>
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th>名称(功能)</th>
+<th>方法(示例)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pie</td>
+<td>声明</td>
+<td>段首声明</td>
+</tr>
+<tr>
+<td>title</td>
+<td>标题</td>
+<td>title 标题x</td>
+</tr>
+<tr>
+<td>&quot; &quot; :</td>
+<td>描述</td>
+<td>&ldquo;部分a&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->&quot;部分b&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->&quot;部分c&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->&quot;部分d&rdquo;: &lt;数量&gt;<!-- raw HTML omitted -->💡只需填入数量, 百分比是Mermaid自动求解的</td>
+</tr>
+</tbody>
+</table>
+
+  </section>
+
+  <section>
+    
+      
+    
+  </section>
+</article>
+
+      </div>
+
+      <div id="side" class="pr-1 bg-white">
+        
+
+  <div class="Box Box--blue p-2 mb-3 mt-5">
+    <a href="/tags/" class="link-gray-dark">
+      <h4>Tags</h4>
+    </a>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/anime" class="link-gray text-emphasized css-truncate-target"><span class="">Anime</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/css" class="link-gray text-emphasized css-truncate-target"><span class="">Css</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/dict" class="link-gray text-emphasized css-truncate-target"><span class="">Dict</span></a>
+      <span class="text-right Counter">2</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/html" class="link-gray text-emphasized css-truncate-target"><span class="">Html</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/hugo" class="link-gray text-emphasized css-truncate-target"><span class="">Hugo</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/javascript" class="link-gray text-emphasized css-truncate-target"><span class="">Javascript</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/markdown" class="link-gray text-emphasized css-truncate-target"><span class="">Markdown</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/tips" class="link-gray text-emphasized css-truncate-target"><span class="">Tips</span></a>
+      <span class="text-right Counter">5</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/tags/truth" class="link-gray text-emphasized css-truncate-target"><span class="">Truth</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+  </div>
+
+
+
+
+  <div class="Box Box--blue p-2 mb-3">
+    <a href="/categories/" class="link-gray-dark">
+      <h4>Categories</h4>
+    </a>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/categories/deep-inside" class="link-gray text-emphasized css-truncate-target"><span class="">Deep inside</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/categories/mylife" class="link-gray text-emphasized css-truncate-target"><span class="">Mylife</span></a>
+      <span class="text-right Counter">1</span>
+    </span>
+    
+    <span class="css-truncate no-wrap m-1 pl-1">
+      <a href="/categories/tips" class="link-gray text-emphasized css-truncate-target"><span class="">Tips</span></a>
+      <span class="text-right Counter">4</span>
+    </span>
+    
+  </div>
+
+
+        
+        <img src="/Icons/Baseball3by2.gif" alt="gif" width="150" height="100px"></img>
+      </div>
+
+      <div id="footer" class="pt-2 pb-3 bg-white text-center">
+        
+
+  <span class="text-small text-gray">
+    
+
+    Powered by the
+    <a href="https://github.com/qqhann/hugo-primer" class="link-gray-dark">Hugo-Primer</a> theme for
+    <a href="https://gohugo.io" class="link-gray-dark">Hugo</a>.
+  </span>
+
+
+      </div>
+    </div>
+
+    
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+    
+  </body>
+</html>
