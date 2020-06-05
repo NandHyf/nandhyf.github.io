@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on Page of NAND He</title>
-    <link>https://nandhyf.github.io/tags/markdown/</link>
-    <description>Recent content in markdown on Page of NAND He</description>
+    <title>markdown on NandHyf&#39;s page</title>
+    <link>http://example.org/tags/markdown/</link>
+    <description>Recent content in markdown on NandHyf&#39;s page</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 04 Apr 2020 14:58:10 +0800</lastBuildDate>
     
-	<atom:link href="https://nandhyf.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MarkdownTips</title>
-      <link>https://nandhyf.github.io/post/markdowntips/</link>
+      <link>http://example.org/post/markdowntips/</link>
       <pubDate>Sat, 04 Apr 2020 14:58:10 +0800</pubDate>
       
-      <guid>https://nandhyf.github.io/post/markdowntips/</guid>
+      <guid>http://example.org/post/markdowntips/</guid>
       <description>LTS Project✅ 🚧持续更新中 语法支持:
 Typora✅
 VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;)
 同目录下的.html版本由Typora导出，供有需要的朋友快速查阅使用💗
- 通用语法  分级标题 有序列表 无序列表 加粗  GitHub的支持问题   斜体 删除线 引用 代码块 分割线 取消转义 嵌套使用 链接 插入图片  GitHub的支持问题   锚点  锚点与&amp;lt;a&amp;gt;标签   勾选框 制表  对齐    特殊语法 🚧受限于Markdown并非标准化的特性，以下语法的支持不具有普遍性，请在使用前确认目标编辑器支持该特性</description>
+ 通用语法  分级标题 有序列表 无序列表 加粗  GitHub的支持问题   斜体 删除线 引用 代码块 分割线 取消转义 嵌套使用 链接 插入图片  GitHub的支持问题   锚点  锚点与&amp;lt;a&amp;gt;标签   勾选框 制表  对齐    特殊语法 🚧受限于Markdown并非标准化的特性，以下语法的支持不具有普遍性，请在使用前确认目标编辑器支持该特性
+ 高亮 上角标 下角标 下划线 Markdown与HTML  &amp;lt;a&amp;gt; &amp;lt;b&amp;gt; &amp;lt;i&amp;gt; &amp;lt;u&amp;gt; &amp;lt;hr&amp;gt;    快捷键 💡Windows下通过Ctrl +实现的功能在Mac OS下大多可以通过Command + 实现</description>
     </item>
     
   </channel>

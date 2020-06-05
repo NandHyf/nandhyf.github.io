@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Page of NAND He</title>
-    <link>https://nandhyf.github.io/categories/</link>
-    <description>Recent content in Categories on Page of NAND He</description>
+    <title>Categories on NandHyf&#39;s page</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on NandHyf&#39;s page</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sun, 17 May 2020 13:15:01 +0800</lastBuildDate>
     
-	<atom:link href="https://nandhyf.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tips</title>
-      <link>https://nandhyf.github.io/categories/tips/</link>
+      <link>http://example.org/categories/tips/</link>
       <pubDate>Sun, 17 May 2020 13:15:01 +0800</pubDate>
       
-      <guid>https://nandhyf.github.io/categories/tips/</guid>
+      <guid>http://example.org/categories/tips/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MyLife</title>
-      <link>https://nandhyf.github.io/categories/mylife/</link>
+      <title>🔴RECs</title>
+      <link>http://example.org/categories/recs/</link>
       <pubDate>Wed, 22 Apr 2020 11:30:06 +0800</pubDate>
       
-      <guid>https://nandhyf.github.io/categories/mylife/</guid>
+      <guid>http://example.org/categories/recs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep inside</title>
-      <link>https://nandhyf.github.io/categories/deep-inside/</link>
+      <link>http://example.org/categories/deep-inside/</link>
       <pubDate>Sat, 04 Apr 2020 16:35:44 +0800</pubDate>
       
-      <guid>https://nandhyf.github.io/categories/deep-inside/</guid>
+      <guid>http://example.org/categories/deep-inside/</guid>
       <description></description>
     </item>
     
