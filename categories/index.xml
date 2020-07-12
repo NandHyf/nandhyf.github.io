@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy;Nand He 2020</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 14:28:06 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2020 14:54:38 +0800</lastBuildDate>
     
 	<atom:link href="https://nandhyf.gitee.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Methods &amp;&amp; Theories</title>
+      <link>https://nandhyf.gitee.io/categories/methods-theories/</link>
+      <pubDate>Sun, 12 Jul 2020 14:54:38 +0800</pubDate>
+      
+      <guid>https://nandhyf.gitee.io/categories/methods-theories/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tests</title>
