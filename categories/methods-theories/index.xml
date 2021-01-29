@@ -14,10 +14,10 @@
     
     <item>
       <title>名词库</title>
-      <link>https://nandhyf.gitee.io/%E5%90%8D%E8%AF%8D%E5%BA%93/</link>
+      <link>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</link>
       <pubDate>Mon, 20 Jul 2020 12:08:58 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/%E5%90%8D%E8%AF%8D%E5%BA%93/</guid>
+      <guid>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</guid>
       <description>标签 系统、架构类
 协议类
 语言类
@@ -30,10 +30,10 @@
     
     <item>
       <title>Telegram-Email-Bot</title>
-      <link>https://nandhyf.gitee.io/telegram-email-bot/</link>
+      <link>https://nandhyf.gitee.io/post/telegram-email-bot/</link>
       <pubDate>Sun, 12 Jul 2020 14:54:38 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/telegram-email-bot/</guid>
+      <guid>https://nandhyf.gitee.io/post/telegram-email-bot/</guid>
       <description>Telegram 邮件提醒机器人 Telegram eMail bot
 @author NandHyf
  出于兴趣和移动端没有什么太好的邮件客户端😥所以尝试着用Python写了一个邮件提醒机器人，由于不是很了解邮件的具体原理所以为了保险采用了POP协议拉取邮件，所以不会对信件本身有什么的危险，也是在做这个项目的时候对程序设计有了更深一步的理解，当作是个学习积累的成果分享出来，如果喜欢的话还请点个star🌟予以支持，非常感谢😉
