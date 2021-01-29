@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TechnicalDefinitions on Page of NAND He</title>
+    <link>https://nandhyf.gitee.io/tags/technicaldefinitions/</link>
+    <description>Recent content in TechnicalDefinitions on Page of NAND He</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&amp;copy;Nand He 2020</copyright>
+    <lastBuildDate>Mon, 20 Jul 2020 12:08:58 +0800</lastBuildDate>
+    
+	<atom:link href="https://nandhyf.gitee.io/tags/technicaldefinitions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>名词库</title>
+      <link>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</link>
+      <pubDate>Mon, 20 Jul 2020 12:08:58 +0800</pubDate>
+      
+      <guid>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</guid>
+      <description>标签 系统、架构类
+协议类
+语言类
+ 系统/架构类  (代码)内聚性
+ 将相关的代码放在一起
+ PaaS(Platform as a Service)
+ 平台即服务
+ SaaS(Software as a Service)</description>
+    </item>
+    
+  </channel>
+</rss>
