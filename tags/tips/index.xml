@@ -14,10 +14,10 @@
     
     <item>
       <title>使用Typora绘制图(表)</title>
-      <link>https://nandhyf.gitee.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</link>
+      <link>https://nandhyf.gitee.io/life/notes/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</link>
       <pubDate>Sun, 17 May 2020 13:15:01 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</guid>
+      <guid>https://nandhyf.gitee.io/life/notes/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</guid>
       <description>@author: 加贝
 在学习语法之前, 不妨花一点时间阅读以下官方支持文档, 再决定学习本主题的范围和深度
 (本篇文章中出现的译文均为笔者翻译或注释, 内容仅供参考)
@@ -27,10 +27,10 @@ Typora supports some Markdown extensions for diagrams, once they are enabled fro
     
     <item>
       <title>About that &#34;Wall&#34;</title>
-      <link>https://nandhyf.gitee.io/post/aboutthatwall/</link>
+      <link>https://nandhyf.gitee.io/aboutgfw/</link>
       <pubDate>Sat, 04 Apr 2020 16:35:44 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/aboutthatwall/</guid>
+      <guid>https://nandhyf.gitee.io/aboutgfw/</guid>
       <description>真实的防火墙 网络审查在各个国家都普遍存在着，它并不仅存在于中国。在全球的局势对中国都不利的当下，当局会过滤掉影响、危害到中国长远发展的信息，此时国家安全的意义更加重大。
 互联网上存在着大量不现实的、不客观的，甚至自相矛盾的抹黑当局政府言论，它们背后一般有西方政府或非政府组织资金支持。这些媒体包括但不限于一些港媒、境外网站。
 我们希望能在遇到此类言论和见解时，不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西，而是要事实求是地思考，要摆脱情绪绑架的怪诞思维去理解。
@@ -41,10 +41,10 @@ Typora supports some Markdown extensions for diagrams, once they are enabled fro
     
     <item>
       <title>Web三大件儿 de Tips</title>
-      <link>https://nandhyf.gitee.io/post/w3ctips/</link>
+      <link>https://nandhyf.gitee.io/work/frontend/w3ctips/</link>
       <pubDate>Sat, 04 Apr 2020 16:31:25 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/w3ctips/</guid>
+      <guid>https://nandhyf.gitee.io/work/frontend/w3ctips/</guid>
       <description>HTML
 CSS
 JS
@@ -57,10 +57,10 @@ JS
     
     <item>
       <title>Hugo Tips</title>
-      <link>https://nandhyf.gitee.io/post/hugotips/</link>
+      <link>https://nandhyf.gitee.io/life/notes/hugotips/</link>
       <pubDate>Sat, 04 Apr 2020 15:56:15 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/hugotips/</guid>
+      <guid>https://nandhyf.gitee.io/life/notes/hugotips/</guid>
       <description>By: NandHyf
 version: v0.68.3
 安装 Video guid form Mike Dane, Youtube
@@ -69,10 +69,10 @@ version: v0.68.3
     
     <item>
       <title>MarkdownTips</title>
-      <link>https://nandhyf.gitee.io/post/markdowntips/</link>
+      <link>https://nandhyf.gitee.io/life/notes/markdowntips/</link>
       <pubDate>Sat, 04 Apr 2020 14:58:10 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/markdowntips/</guid>
+      <guid>https://nandhyf.gitee.io/life/notes/markdowntips/</guid>
       <description>LTS Project✅ 🚧持续更新中 语法支持:
 Typora✅
 VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;)
