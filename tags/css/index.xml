@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy;Nand He 2020</copyright>
-    <lastBuildDate>Sat, 04 Apr 2020 16:31:25 +0800</lastBuildDate>
-    
-	<atom:link href="https://nandhyf.gitee.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 04 Apr 2020 16:31:25 +0800</lastBuildDate><atom:link href="https://nandhyf.gitee.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web三大件儿 de Tips</title>
       <link>https://nandhyf.gitee.io/post/w3ctips/</link>
