@@ -14,14 +14,7 @@
       <pubDate>Mon, 20 Jul 2020 12:08:58 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</guid>
-      <description>标签 系统、架构类
-协议类
-语言类
- 系统/架构类  (代码)内聚性
- 将相关的代码放在一起
- PaaS(Platform as a Service)
- 平台即服务
- SaaS(Software as a Service)</description>
+      <description>标签 系统、架构类 协议类 语言类 系统/架构类 (代码)内聚性 将相关的代码放在一起 PaaS(Platform as a Service) 平台即服务 SaaS(Software as a Service) 软件即服务 API(Application Programming Interfcae) 应用编程接口 SOA(Service-Oriented Architecture) 面向服务的架构 COTS(Commercial Off-The-Shelf) 商用现成品(技术) REST(Representational State Transfer) 表现层状态转换 COBIT(Control Objectives for Information and Related</description>
     </item>
     
     <item>
@@ -30,15 +23,7 @@
       <pubDate>Sun, 12 Jul 2020 14:54:38 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/telegram-email-bot/</guid>
-      <description>Telegram 邮件提醒机器人 Telegram eMail bot
-@author NandHyf
- 出于兴趣和移动端没有什么太好的邮件客户端😥所以尝试着用Python写了一个邮件提醒机器人，由于不是很了解邮件的具体原理所以为了保险采用了POP协议拉取邮件，所以不会对信件本身有什么的危险，也是在做这个项目的时候对程序设计有了更深一步的理解，当作是个学习积累的成果分享出来，如果喜欢的话还请点个star🌟予以支持，非常感谢😉
-  针对这个项目的详细解读、debug总结以及总结思考欢迎进入我的个人博客或CSDN阅读相关内容
-Blog👉[待更新]
-CSDN👉[待更新]
- ⚠功能定位 本机器人的功能被定位为邮件提醒，而不是接收❌或发送邮件❌，目前它能做到的仅仅是被部署在某个平台上，然后定时的拉取多个信箱✔的多个邮件✔，如果有新邮件则通过一个bot向指定的一个chat_id发送一个包含基本信息的提醒消息，其中同一个信箱的多个邮件会被合并为一条消息发送（当然消息内容是有做分隔处理的，还是比较方便阅读的，相关内容下文会详细讲解）
-关于消息文本 邮件内容将被解析并拼接为以下形式进行推送
-2020-07-12 12:31:50.</description>
+      <description>Telegram 邮件提醒机器人 Telegram eMail bot @author NandHyf 出于兴趣和移动端没有什么太好的邮件客户端😥所以尝试着用Python写了一个邮件提醒机器人，由于不是很了解邮件的具体原理所以为了保险采用了POP协议拉取邮件，所以不会对信件本身</description>
     </item>
     
     <item>
@@ -47,10 +32,7 @@ CSDN👉[待更新]
       <pubDate>Sat, 06 Jun 2020 14:28:06 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/qrtest/</guid>
-      <description>收款码测试  测试网页端收款码的机制
- GitHub
-Gitee
-收款码</description>
+      <description>收款码测试 测试网页端收款码的机制 GitHub Gitee 收款码</description>
     </item>
     
     <item>
@@ -59,11 +41,7 @@ Gitee
       <pubDate>Sun, 17 May 2020 13:15:01 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</guid>
-      <description>@author: 加贝
-在学习语法之前, 不妨花一点时间阅读以下官方支持文档, 再决定学习本主题的范围和深度
-(本篇文章中出现的译文均为笔者翻译或注释, 内容仅供参考)
- Draw Diagrams With Markdown August 15, 2016 by typora.io
-Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel.</description>
+      <description>@author: 加贝 在学习语法之前, 不妨花一点时间阅读以下官方支持文档, 再决定学习本主题的范围和深度 (本篇文章中出现的译文均为笔者翻译或注释, 内容仅供参考) Draw Diagrams With Markdown August 15, 2016 by typora.io Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel. When exporting as HTML, PDF, epub,</description>
     </item>
     
     <item>
@@ -72,13 +50,7 @@ Typora supports some Markdown extensions for diagrams, once they are enabled fro
       <pubDate>Wed, 22 Apr 2020 11:30:06 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020/</guid>
-      <description>2020   我们无法一起学习②
-  阿宅的恋爱真难
-  天使降临到我身边
-  紫罗兰花园-外传电影
-  紫罗兰花园
-  灰色三部曲
-  魔女的使命</description>
+      <description>2020 我们无法一起学习② 阿宅的恋爱真难 天使降临到我身边 紫罗兰花园-外传电影 紫罗兰花园 灰色三部曲 魔女的使命 哔哩哔哩2020拜年祭 虚构推理 宅饮 怪怪守护神 因为太怕痛所以全点防御力了 One Room①② 我的青春恋爱物语</description>
     </item>
     
     <item>
@@ -87,12 +59,7 @@ Typora supports some Markdown extensions for diagrams, once they are enabled fro
       <pubDate>Wed, 22 Apr 2020 11:30:06 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020%E6%84%9F%E6%83%B3/</guid>
-      <description>20204月份的评论, 对作品的理解挺浅的, 不过好像已经发现了自己是个日常系的观众这件事, 对于EVA的评价因为阅历有限的原因有失偏颇, 总之都留在这里吧
- 神作  《Darling in the FRANXX》
- 国家队中间的日常片端到最后的结局太对口了，真的有被震撼到，尽管故事设定很远离现实，但是很有代入感；不过有关驾驶所谓&amp;quot;铁甲少女&amp;quot;的设定绝对很奇怪的嫌疑，而且感觉有些隐晦的讨论了一些话题，但重心倒是始终没有摆在座舱里还算是没踩雷；整体的走向和对感情的描写和表述绝对是第一的，最后的结局尽管二人没能回来但个人认为这才是最好的结局，而且跳跃前的沉默铺垫的我认为已经足够了，或许也正是这样才能写出两人再相遇的情节，达成一个&amp;quot;催生篇&amp;quot;的效果吧，反正老贵族如我真的有被震撼到，排名绝对第一。
- 《神之塔》
- 全程思维都很敏捷且深刻的番，除了登塔时的竞争，对感情线也相当的充实而且很真实，尤其是夜对蕾哈尔的依赖情感也是很深刻的议题；最后的反转设计的也十分巧妙，相同的表现由环境获得的和人物实际的想法竟然可以完全相反。通过几次的反转使夜成长的过程很自然，不过这种情感的设定也就慢慢的让剧情远离了日常，能感受到从一个&amp;quot;第三人称视角&amp;quot;逐渐的变成了&amp;quot;新神的见证者&amp;quot;，个人而言震撼程度还是不如国家队，但是第二目前还是相当稳的。
- 《EVA》ep.</description>
+      <description>20204月份的评论, 对作品的理解挺浅的, 不过好像已经发现了自己是个日常系的观众这件事, 对于EVA的评价因为阅历有限的原因有失偏颇, 总之都留在这里吧 神作 《Darling in the FRANXX》 国家队中间的日</description>
     </item>
     
     <item>
@@ -101,12 +68,7 @@ Typora supports some Markdown extensions for diagrams, once they are enabled fro
       <pubDate>Sat, 04 Apr 2020 16:35:44 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/aboutgfw/</guid>
-      <description>真实的防火墙 网络审查在各个国家都普遍存在着，它并不仅存在于中国。在全球的局势对中国都不利的当下，当局会过滤掉影响、危害到中国长远发展的信息，此时国家安全的意义更加重大。
-互联网上存在着大量不现实的、不客观的，甚至自相矛盾的抹黑当局政府言论，它们背后一般有西方政府或非政府组织资金支持。这些媒体包括但不限于一些港媒、境外网站。
-我们希望能在遇到此类言论和见解时，不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西，而是要事实求是地思考，要摆脱情绪绑架的怪诞思维去理解。
-我们需要了解到，中国的发展总基调是“稳中求进”，中国社会的最核心问题就是稳定。失去稳定的中国将会是一盘散沙，面临分裂和肢解的危险。我们希望您了解当今中国发展的根本保证是什么，发展的过程中哪部分是主旋律，哪些是噪音；哪些是进取的，哪些是会开历史倒车的。我们需要维新，而不是革命。
-我们应该清醒和全面地认识问题，偏信西方媒体的言论、缺乏对国家的信任是不可取的。您的数据安全和隐私对您尤为重要。若这些信息不应当被西方掌握时，它对国家和民族的命运更为重要。出于此原因，当局可能会限制您的行为，我们不会也无法干预当局的任何政策和决定。
-所以，我们希望您在使用某些服务时，也请不要盲目地攻击当局的做法。</description>
+      <description>真实的防火墙 网络审查在各个国家都普遍存在着，它并不仅存在于中国。在全球的局势对中国都不利的当下，当局会过滤掉影响、危害到中国长远发展的信息，此时国家安全的意义更加重大。 互联网上存在着大量不现实的、不客</description>
     </item>
     
     <item>
@@ -115,14 +77,7 @@ Typora supports some Markdown extensions for diagrams, once they are enabled fro
       <pubDate>Sat, 04 Apr 2020 16:31:25 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/w3ctips/</guid>
-      <description>HTML
-CSS
-JS
- HTML 快速创建列表
-// ul#newsbox&amp;gt;li*5{我是第$个Li}  CSS  能用CSS搞定的绝对不用JS
-  行内样式优先级最高
- 清除浏览器默认间距和填充的8px，但不是最好的方法：
-*{ margin = 0; padding = 0; } 样式“标配”：</description>
+      <description>HTML CSS JS HTML 快速创建列表 // ul#newsbox&amp;gt;li*5{我是第$个Li} CSS 能用CSS搞定的绝对不用JS 行内样式优先级最高 清除浏览器默认间距和填充的8px，但不是最好的方法： *{ margin = 0; padding = 0; } 样式“标</description>
     </item>
     
     <item>
@@ -131,10 +86,7 @@ JS
       <pubDate>Sat, 04 Apr 2020 15:56:15 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/hugotips/</guid>
-      <description>By: NandHyf
-version: v0.68.3
-安装 Video guid form Mike Dane, Youtube
-功能性注释  /bin是需要自己创建的! /Site不是必须的😥 是可以直接托管/Public文件夹的,没有必要创建&amp;quot;平行文件夹&amp;quot;  网站文件夹  /archetyypes: 在原型中定义关于内容的一些数据, 所有的原型都存放在这里  default.</description>
+      <description>By: NandHyf version: v0.68.3 安装 Video guid form Mike Dane, Youtube 功能性注释 /bin是需要自己创建的! /Site不是必须的😥 是可以直接托管/Public文件夹的,没有必要创建&amp;quot;平行文件夹&amp;quot; 网站文件夹 /archetyypes: 在原型中定义关于内容的</description>
     </item>
     
     <item>
@@ -143,11 +95,7 @@ version: v0.68.3
       <pubDate>Sat, 04 Apr 2020 14:58:10 +0800</pubDate>
       
       <guid>https://nandhyf.gitee.io/post/markdowntips/</guid>
-      <description>LTS Project✅ 🚧持续更新中 语法支持:
-Typora✅
-VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;)
-同目录下的.html版本由Typora导出，供有需要的朋友快速查阅使用💗
- 通用语法  通用语法 特殊语法 快捷键 参考资料  分级标题 有序列表 无序列表 加粗 斜体 删除线 嵌套使用 插入图片 锚点 高亮 上角标 下角标 加粗 斜体 下划线 删除线 缩进与反缩进    特殊语法 🚧受限于Markdown并非标准化的特性，以下语法的支持不具有普遍性，请在使用前确认目标编辑器支持该特性</description>
+      <description>LTS Project✅ 🚧持续更新中 语法支持: Typora✅ VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;) 同目录下的.html版本由Typora导出，供有需要的朋友快速查阅使用💗 通用语法 通用语法 特殊语法 快捷键 参考资料 分级标题 有序列</description>
     </item>
     
   </channel>
