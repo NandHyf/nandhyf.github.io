@@ -113,13 +113,13 @@ if (!doNotTrack) {
 <h1 id="draw-diagrams-with-markdown">Draw Diagrams With Markdown</h1>
 <p>August 15, 2016 by typora.io</p>
 <p>Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel.</p>
-<p>When exporting as <strong>HTML</strong>, <strong>PDF</strong>, <strong>epub</strong>, <strong>docx</strong>, those rendered diagrams <strong>will also be included</strong>, ~~but diagrams features are not supported when exporting markdown into other file formats in current version*~~. Besides, you should also notice that **diagrams is not supported by standard Markdown, CommonMark or GFM. **Therefore, we still **recommend you to insert an image** of these diagrams instead of write them in Markdown directly.</p>
+<p>When exporting as <strong>HTML</strong>, <strong>PDF</strong>, <strong>epub</strong>, <strong>docx</strong>, those rendered diagrams <strong>will also be included</strong>, <del>but diagrams features are not supported when exporting markdown into other file formats in current version*</del>. Besides, you should also notice that **diagrams is not supported by standard Markdown, CommonMark or GFM. **Therefore, we still <strong>recommend you to insert an image</strong> of these diagrams instead of write them in Markdown directly.</p>
 <hr>
 <h1 id="使用typora绘制图表">使用Typora绘制图(表)</h1>
 <p>August 15, 2016 by typora.io</p>
 <p>Typora 可以支持一些Markdown的图表扩展(语法), 如果你在偏好设置中选择开启(支持性)</p>
 <p><img src="/post/Pix/Typoragrams/Enable.png" alt="开启选项"></p>
-<p>当导出为**.html**, **.PDF**, .**epub**, .**docx**时这些渲染的图(表)依然会被包括进来~~但是图(表)特性在当前(四年前的远古版本)版本中由Markdown导出到其他格式**时**不被支持~~. 另外🔔, 你也应该注意到图(表)并不被**标准Markdown, CommonMark 或 GFM 所支持;**</p>
+<p>当导出为**.html**, <strong>.PDF</strong>, .<strong>epub</strong>, .<strong>docx</strong>时这些渲染的图(表)依然会被包括进来<del>但是图(表)特性在当前(四年前的远古版本)版本中由Markdown导出到其他格式<strong>时</strong>不被支持</del>. 另外🔔, 你也应该注意到图(表)并不被<strong>标准Markdown, CommonMark 或 GFM 所支持;</strong></p>
 <p>因此💡, 我们<strong>依然建议你选择插入图片</strong>而不是使用直接使用Markdown书写</p>
 </blockquote>
 <hr>
@@ -152,7 +152,7 @@ if (!doNotTrack) {
 <hr>
 <p>这个特性是通过 <a href="https://bramp.github.io/js-sequence-diagrams/"><strong>js-sequence</strong></a>所实现的, 可以将以下代码转换为渲染图</p>
 </blockquote>
-<pre><code>​```sequence
+<pre tabindex="0"><code>​```sequence
 Alice-&gt;Bob: Hello Bob, how are you?
 Note left of Alice: Alice thinks
 Note right of Alice: Alice thinks
@@ -164,7 +164,7 @@ Bob--&gt;Alice: I am good thanks!
 <p><strong>结果如下:</strong></p>
 <p><img src="/post/Pix/Typoragrams/%E5%BA%8F%E5%88%97%E5%9B%BE.png" alt="序列图"></p>
 <p>💡对象的数量并不局限于两个, 比如也可以写成👇这样; 但<strong>或许是有上限的</strong>, 因此还是建议在规划事件或逻辑顺序前<strong>先对所需对象数量的支持性进行检查</strong></p>
-<pre><code>​```sequence
+<pre tabindex="0"><code>​```sequence
 a--&gt;b: a2b
 a--&gt;c: a2c
 a--&gt;d: a2d
@@ -211,7 +211,7 @@ a--&gt;k: a2k
 <hr>
 <p>这个特性是通过 <a href="http://flowchart.js.org/"><strong>flowchart.js</strong></a>所实现的, 可以将以下代码转换为渲染图</p>
 </blockquote>
-<pre><code>​```flow
+<pre tabindex="0"><code>​```flow
 st=&gt;start: Start
 op=&gt;operation: Your Operation
 cond=&gt;condition: Yes or No?
@@ -276,7 +276,7 @@ cond(no)-&gt;op
 <hr>
 <p>通过👉<a href="https://mermaid-js.github.io/mermaid/#/sequenceDiagram"><strong>Mermaid序列图文档</strong></a>查看更多细节</p>
 </blockquote>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 %% Example of sequence diagram
   sequenceDiagram
     Alice-&gt;&gt;Bob: Hello Bob, how are you?
@@ -347,7 +347,7 @@ cond(no)-&gt;op
 </blockquote>
 <h3 id="语法">语法</h3>
 <p><strong>横向流程图</strong></p>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 graph LR
 id1[alt] --&gt;id2(alt)
 id2 --&gt; id3{alt}
@@ -357,7 +357,7 @@ id3 --&gt;|情况2| id5[结果2]
 </code></pre><p>🔔: 自己写的时候<strong>不要先打代码块</strong>, 直接写👆这个代码块里的内容就好</p>
 <p><img src="/post/Pix/Typoragrams/%E6%A8%AA%E5%90%91%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="横向流程图"></p>
 <p><strong>纵向流程图:</strong></p>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 graph TD
 id1[alt] --&gt;id2(alt)
 id2 --&gt; id3{alt}
@@ -411,7 +411,7 @@ id3 --&gt;|情况3| id6[结果3]
 <hr>
 <p>通过👉<a href="https://mermaid-js.github.io/mermaid/#gantt"><strong>Mermaid甘特图文档</strong></a>查看更多细节</p>
 </blockquote>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 %% Example with selection of syntaxes
         gantt
         dateFormat  YYYY-MM-DD
@@ -501,7 +501,7 @@ id3 --&gt;|情况3| id6[结果3]
 <p><strong>首先回顾一下这张图:</strong></p>
 <p><img src="/post/Pix/Typoragrams/%E7%94%98%E7%89%B9%E5%9B%BE.png" alt="甘特图"></p>
 <p>对于A section的定义, 其实就是定义了des1 - des4 四个重要时间点</p>
-<pre><code>section A section
+<pre tabindex="0"><code>section A section
 Completed task	:done, des1, 2014-01-06,2014-01-08
 Active task		:active, des2, 2014-01-09, 3d
 Future task		:des3, after des2, 5d
@@ -520,7 +520,7 @@ Future task2	:des4, after des3, 5d
 <hr>
 <p>通过👉<a href="https://mermaid-js.github.io/mermaid/#/classDiagram"><strong>Mermaid类图文档</strong></a>查看更多细节</p>
 </blockquote>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 classDiagram
       Animal &lt;|-- Duck
       Animal &lt;|-- Fish
@@ -584,7 +584,7 @@ classDiagram
 <hr>
 <p>通过👉<a href="https://mermaidjs.github.io/#/stateDiagram"><strong>Mermaid状态图文档</strong></a>查看更多细节</p>
 </blockquote>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 stateDiagram
     [*] --&gt; Still
     Still --&gt; [*]
@@ -628,7 +628,7 @@ stateDiagram
 <blockquote>
 <p>这里官方文档并没有给出更多, 但是Mermaid官方对于饼图的支持还是有的👉<a href="https://mermaid-js.github.io/mermaid/#/pie"><strong>Mermaid饼图文档</strong></a></p>
 </blockquote>
-<pre><code>​```mermaid
+<pre tabindex="0"><code>​```mermaid
 pie
     title Pie Chart
     &quot;Dogs&quot; : 386
@@ -978,7 +978,7 @@ pie
     
     <span class="css-truncate no-wrap m-1 pl-1">
       <a href="/tags/2020" class="link-gray text-emphasized css-truncate-target"><span class="">2020th</span></a>
-      <span class="text-right Counter">10</span>
+      <span class="text-right Counter">11</span>
     </span>
     
     <span class="css-truncate no-wrap m-1 pl-1">
