@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020 on Page of NAND He</title>
-    <link>https://nandhyf.gitee.io/tags/2020/</link>
+    <link>https://nandhyf.github.io/tags/2020/</link>
     <description>Recent content in 2020 on Page of NAND He</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy;Nand He 2020</copyright>
-    <lastBuildDate>Sun, 18 Jul 2021 09:25:43 +0800</lastBuildDate><atom:link href="https://nandhyf.gitee.io/tags/2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jul 2021 09:25:43 +0800</lastBuildDate><atom:link href="https://nandhyf.github.io/tags/2020/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark Side inside my heart</title>
-      <link>https://nandhyf.gitee.io/post/me/</link>
+      <link>https://nandhyf.github.io/post/me/</link>
       <pubDate>Sun, 18 Jul 2021 09:25:43 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/me/</guid>
+      <guid>https://nandhyf.github.io/post/me/</guid>
       <description>心里完全的承认一切都结束了, 以前会以为是没有机会表达, 想如果当时说出来会是什么不一样的if线, 或者以为以后会改变但是被人教会的; 但那些都不会发生, 就像我见过的一样, 人是不会改变的, 那样的习惯是我永远也</description>
     </item>
     
     <item>
       <title>名词库</title>
-      <link>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</link>
+      <link>https://nandhyf.github.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</link>
       <pubDate>Mon, 20 Jul 2020 12:08:58 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</guid>
+      <guid>https://nandhyf.github.io/post/%E5%90%8D%E8%AF%8D%E5%BA%93/</guid>
       <description>标签 系统、架构类 协议类 语言类 系统/架构类 (代码)内聚性 将相关的代码放在一起 PaaS(Platform as a Service) 平台即服务 SaaS(Software as a Service) 软件即服务 API(Application Programming Interfcae) 应用编程接口 SOA(Service-Oriented Architecture) 面向服务的架构 COTS(Commercial Off-The-Shelf) 商用现成品(技术) REST(Representational State Transfer) 表现层状态转换 COBIT(Control Objectives for Information and Related</description>
     </item>
     
     <item>
       <title>Telegram-Email-Bot</title>
-      <link>https://nandhyf.gitee.io/post/telegram-email-bot/</link>
+      <link>https://nandhyf.github.io/post/telegram-email-bot/</link>
       <pubDate>Sun, 12 Jul 2020 14:54:38 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/telegram-email-bot/</guid>
+      <guid>https://nandhyf.github.io/post/telegram-email-bot/</guid>
       <description>Telegram 邮件提醒机器人 Telegram eMail bot @author NandHyf 出于兴趣和移动端没有什么太好的邮件客户端😥所以尝试着用Python写了一个邮件提醒机器人，由于不是很了解邮件的具体原理所以为了保险采用了POP协议拉取邮件，所以不会对信件本身</description>
     </item>
     
     <item>
       <title>QRTEST</title>
-      <link>https://nandhyf.gitee.io/post/qrtest/</link>
+      <link>https://nandhyf.github.io/post/qrtest/</link>
       <pubDate>Sat, 06 Jun 2020 14:28:06 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/qrtest/</guid>
+      <guid>https://nandhyf.github.io/post/qrtest/</guid>
       <description>收款码测试 测试网页端收款码的机制 GitHub Gitee 收款码</description>
     </item>
     
     <item>
       <title>使用Typora绘制图(表)</title>
-      <link>https://nandhyf.gitee.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</link>
+      <link>https://nandhyf.github.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</link>
       <pubDate>Sun, 17 May 2020 13:15:01 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</guid>
+      <guid>https://nandhyf.github.io/post/%E4%BD%BF%E7%94%A8typora%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8/</guid>
       <description>@author: 加贝 在学习语法之前, 不妨花一点时间阅读以下官方支持文档, 再决定学习本主题的范围和深度 (本篇文章中出现的译文均为笔者翻译或注释, 内容仅供参考) Draw Diagrams With Markdown August 15, 2016 by typora.io Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel. When exporting as HTML, PDF, epub,</description>
     </item>
     
     <item>
       <title>中二病2020</title>
-      <link>https://nandhyf.gitee.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020/</link>
+      <link>https://nandhyf.github.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020/</link>
       <pubDate>Wed, 22 Apr 2020 11:30:06 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020/</guid>
+      <guid>https://nandhyf.github.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020/</guid>
       <description>2020 我们无法一起学习② 阿宅的恋爱真难 天使降临到我身边 紫罗兰花园-外传电影 紫罗兰花园 灰色三部曲 魔女的使命 哔哩哔哩2020拜年祭 虚构推理 宅饮 怪怪守护神 因为太怕痛所以全点防御力了 One Room①② 我的青春恋爱物语</description>
     </item>
     
     <item>
       <title>中二病2020感想</title>
-      <link>https://nandhyf.gitee.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020%E6%84%9F%E6%83%B3/</link>
+      <link>https://nandhyf.github.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020%E6%84%9F%E6%83%B3/</link>
       <pubDate>Wed, 22 Apr 2020 11:30:06 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020%E6%84%9F%E6%83%B3/</guid>
+      <guid>https://nandhyf.github.io/post/%E4%B8%AD%E4%BA%8C%E7%97%852020%E6%84%9F%E6%83%B3/</guid>
       <description>20204月份的评论, 对作品的理解挺浅的, 不过好像已经发现了自己是个日常系的观众这件事, 对于EVA的评价因为阅历有限的原因有失偏颇, 总之都留在这里吧 神作 《Darling in the FRANXX》 国家队中间的日</description>
     </item>
     
     <item>
       <title>About that &#34;Wall&#34;</title>
-      <link>https://nandhyf.gitee.io/post/aboutgfw/</link>
+      <link>https://nandhyf.github.io/post/aboutgfw/</link>
       <pubDate>Sat, 04 Apr 2020 16:35:44 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/aboutgfw/</guid>
+      <guid>https://nandhyf.github.io/post/aboutgfw/</guid>
       <description>真实的防火墙 网络审查在各个国家都普遍存在着，它并不仅存在于中国。在全球的局势对中国都不利的当下，当局会过滤掉影响、危害到中国长远发展的信息，此时国家安全的意义更加重大。 互联网上存在着大量不现实的、不客</description>
     </item>
     
     <item>
       <title>Web三大件儿 de Tips</title>
-      <link>https://nandhyf.gitee.io/post/w3ctips/</link>
+      <link>https://nandhyf.github.io/post/w3ctips/</link>
       <pubDate>Sat, 04 Apr 2020 16:31:25 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/w3ctips/</guid>
+      <guid>https://nandhyf.github.io/post/w3ctips/</guid>
       <description>HTML CSS JS HTML 快速创建列表 // ul#newsbox&amp;gt;li*5{我是第$个Li} CSS 能用CSS搞定的绝对不用JS 行内样式优先级最高 清除浏览器默认间距和填充的8px，但不是最好的方法： *{ margin = 0; padding = 0; } 样式“标</description>
     </item>
     
     <item>
       <title>Hugo Tips</title>
-      <link>https://nandhyf.gitee.io/post/hugotips/</link>
+      <link>https://nandhyf.github.io/post/hugotips/</link>
       <pubDate>Sat, 04 Apr 2020 15:56:15 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/hugotips/</guid>
+      <guid>https://nandhyf.github.io/post/hugotips/</guid>
       <description>By: NandHyf version: v0.68.3 安装 Video guid form Mike Dane, Youtube 功能性注释 /bin是需要自己创建的! /Site不是必须的😥 是可以直接托管/Public文件夹的,没有必要创建&amp;quot;平行文件夹&amp;quot; 网站文件夹 /archetyypes: 在原型中定义关于内容的</description>
     </item>
     
     <item>
       <title>MarkdownTips</title>
-      <link>https://nandhyf.gitee.io/post/markdowntips/</link>
+      <link>https://nandhyf.github.io/post/markdowntips/</link>
       <pubDate>Sat, 04 Apr 2020 14:58:10 +0800</pubDate>
       
-      <guid>https://nandhyf.gitee.io/post/markdowntips/</guid>
+      <guid>https://nandhyf.github.io/post/markdowntips/</guid>
       <description>LTS Project✅ 🚧持续更新中 语法支持: Typora✅ VS Code✅ (+ &amp;ldquo;Markdown All in One&amp;rdquo;) 同目录下的.html版本由Typora导出，供有需要的朋友快速查阅使用💗 通用语法 通用语法 特殊语法 快捷键 参考资料 分级标题 有序列</description>
     </item>
     
