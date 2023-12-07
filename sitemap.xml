@@ -4,11 +4,17 @@
   <url>
     <loc>https://example.org/docs/hello/</loc>
   </url><url>
+    <loc>https://example.org/docs/p/</loc>
+  </url><url>
     <loc>https://example.org/docs/page1/</loc>
   </url><url>
     <loc>https://example.org/docs/pages/page-one/</loc>
   </url><url>
     <loc>https://example.org/docs/pages/page-two/</loc>
+  </url><url>
+    <loc>https://example.org/docs/r/</loc>
+  </url><url>
+    <loc>https://example.org/docs/t/</loc>
   </url><url>
     <loc>https://example.org/categories/</loc>
   </url><url>
